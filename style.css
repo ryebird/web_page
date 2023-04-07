@@ -90,7 +90,6 @@ h4 {
 .about img {
     height: auto;
     width: 430px;
-    padding-left: 8%;
 }
 
 
@@ -142,4 +141,17 @@ button {
     background-color: white;
     color: #000080;
     transition: .4s;
+}
+
+.float-right {
+    float: right;
+}
+
+.image-container {
+    width: 461px;
+}
+
+.its-me-text {
+    padding-right: 30px;
+    color: white;
 }
