@@ -141,9 +141,5 @@ button {
 #lets-talk-button:hover {
     background-color: white;
     color: #000080;
-    border: none;
     transition: .4s;
-}
-
-nav ul li a:hover {
 }
