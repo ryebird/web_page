@@ -115,3 +115,7 @@ h4{
     border-radius: 90px;
     transition: .4s;
  }
+
+ #lets-talk-button {
+     cursor: pointer;
+ }
