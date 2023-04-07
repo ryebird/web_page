@@ -109,9 +109,9 @@ h4{
     background-color: midnightblue;
     color: white;
     text-decoration: none;
-    border: 2x solid transparent;
-    font-weight: bold;
+    border: 2px solid transparent;
+    font-weigpht: bold;
     padding: 13px 30px;
-    border-radius: 90 px;
+    border-radius: 90px;
     transition: .4s;
  }
