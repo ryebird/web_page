@@ -74,6 +74,10 @@ nav ul li a:hover {
 
 }
 
+.contact h2 {
+    color: rgb(208, 208, 208);
+}
+
 h1 {
     color: color(srgb 0.1045 0.2043 0.475);
     margin: 20px 0 20px 0;
@@ -88,11 +92,18 @@ h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-h2 {
+.about h2 {
     color: rgb(208, 208, 208);
     font-size: 18px;
     margin-bottom: 10px;
     padding-right: 8%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    color: rgb(208, 208, 208);
+    font-size: 18px;
+    margin-bottom: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -112,6 +123,7 @@ h4 {
 .about img {
     height: auto;
     width: 430px;
+    border-radius: 8px;
 }
 
 
@@ -188,6 +200,10 @@ button {
     padding: 100px 0px;
 }
 
+.education h2 {
+    color: rgb(208, 208, 208);
+}
+
 .title h2 {
     color: rgb(208, 208, 208);
     font-size: 75px;
@@ -239,6 +255,44 @@ button {
 
 .education h2 {
     padding-right: initial;
+}
+
+#work {
+    display: flex;
+    flex-direction: column;
+    background: #191919;
+    align-items: center;
+    padding: 20px;
+}
+
+.work h1 {
+    color: rgb(208, 208, 208);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 4%;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+
+
+}
+
+.gallery img {
+    width: 360px;
+    height: 240px;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+.gallery img:hover {
+    background-position: left bottom;
+    color: black;
+    border: none;
+    box-shadow: 0 0 20px color(srgb 0.1639 0.3135 0.4423);
 }
 
 .card i {
@@ -390,4 +444,114 @@ footer p:nth-child(2) {
     bottom: 35px;
     font-size: 14px;
 
-} 
+}
+
+.ask {
+
+    background-size: cover;
+    padding: 10%;
+}
+
+.ask h1 {
+    text-align: center;
+    color: rgb(208, 208, 208);
+    ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.border {
+    width: 100px;
+    height: 10px;
+    background: #2d2d2d;
+    margin: 40px auto;
+    border-radius: 40px;
+}
+
+.ask-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.ask-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #191919;
+    padding: 20px 40px;
+    outline: none;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+.ask-form-text:hover {
+    box-shadow: 0 0 10px 2px rgb(51, 139, 232);
+}
+
+textarea.ask-form-text {
+    resize: none;
+    height: 120px;
+}
+
+.ask-form-bttn {
+    float: right;
+    border: none;
+    background: color(srgb 0.1639 0.3135 0.4423);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.ask-form-bttn:hover {
+    background: color(srgb 0.2769 0.5087 0.71);
+    box-shadow: 0 0 10px 2px rgb(51, 139, 232);
+}
+
+.manager {
+    width: 100%;
+    height: 400px;
+    background: #2d2d2d;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.manager h2 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(208, 208, 208);
+    color: rgb(208, 208, 208);
+    align-items: center;
+
+
+}
+
+th,
+td {
+    padding: 20px;
+}
+
+.Profile2 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/1645199088_5-phonoteka-org-p-fon-bez-shvov-5.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
